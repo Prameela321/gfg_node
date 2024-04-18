@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c2_css1.css">
+</head>
+<style>
+    #block-internal {
+        background-color: green;
+    }
+    #inline-internal{
+        background-color: red;
+    }
+    .border-class {
+       border: 4px solid purple;
+    }
+</style>
+<body>
+    <div style="background-color:aqua" class="border-class">block level element</div>
+    <span style="background-color: blue;">inline element/</span>
+    <div id="block-internal" class="border-class">internal style block element</div>
+    <span id="inline-internal">span internal</span>
+    <div id="external-block">external css block</div>
+
+
+    <br><br>
+    <span class="external-inline">external css inline</span>
+</body>
+</html>

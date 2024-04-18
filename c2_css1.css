@@ -1,0 +1,15 @@
+#external-block {
+  background-color: blueviolet;
+}
+
+.external-inline {
+    background-color: brown;
+    color:lawngreen;
+    border-width : 2px;
+    border-style : solid;
+    border-color :blanchedalmond;
+    padding : 100px;
+    font-size: small;
+    font-weight: 400;
+    font-style: italic;
+}
