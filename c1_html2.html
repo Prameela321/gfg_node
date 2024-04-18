@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="c1_html1.html">1 page</a>
+            <a href="c1_html2.html">2 page</a>
+        </nav>
+    </header>
+    <p>Welcome To HTML Forms</p>
+    <form action="" target="_blank" method="get" autocomplete="on" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Login</legend>
+    <label for="fname">First Name</label>
+    <input type="text" name="fnametext" id="fname"><br><br>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lnametext" id="lname"><br><br>
+    <label for="password"> Password</label>
+    <input type="password" name="pass" id="password"><br><br>
+    </fieldset><br> <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="file">Upload Resume</label>
+    <input type="file" name="file" id="file"><br><br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label><br><br>
+    <input type="checkbox" name="lang1" id="html">
+    <label for="html">Html</label>
+    <input type="checkbox" name="lang2" id="js">
+    <label for="js">javascript</label>
+    <input type="checkbox" name="lang3" id="css">
+    <label for="css">css</label><br><br>
+    <label for="cars">cars</label>
+    <select name="cars" id="cars" width="500px">
+        <optgroup label="fav">
+        <option value="audi">audi</option>
+        <option value="saab">saab</option>
+        </optgroup>
+        <optgroup label="budget">
+            <option value="rr">rr</option>
+        </optgroup>
+    </select><br><br>
+    <textarea name="hobbies" id="hobby" cols="30" rows="10"></textarea><br><br>
+    <label for="colors">Choose Color</label>
+    <input list="colors">
+    <datalist id="colors">
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </datalist><br><br>
+    <label for="age">age</label>
+    <input type="number" name="age" id="age"><br><br>
+    <label for="height">height</label>
+    <input type="range" name="height" id="height"><br><br>
+    <label for="github">github url</label>
+    <input type="url" name="githuburl" id="github"><br><br>
+    <input type="submit" value="submit">
+    <input type="button" value="click">
+    </form>
+
+    
+</body>
+</html>
