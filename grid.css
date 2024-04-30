@@ -1,0 +1,15 @@
+ .grid_container {
+    height : 1000px;
+    width : 1000px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap : 10px;
+}
+
+
+.grid_item {
+  /* height : 100p;
+  width : 100px; */
+  border : 1px solid black;
+}
