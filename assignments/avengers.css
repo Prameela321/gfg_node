@@ -180,14 +180,12 @@ input[type=button] {
 
  .logo {
     display : flex;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap : 0.1px; */
-    margin : 0px  100px;
+    justify-content: center;
+    align-items: center;
  }
 
  .logo img {
     width : 20px;
     margin : 7px;
     border-radius : 5px;
-    align : center;
  }
