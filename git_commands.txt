@@ -4,3 +4,8 @@
 attribute vs selector
 void element
 display none vs visibility hidden
+
+npm create  vite@latest
+cd vite-project
+npm install
+npm run dev(check scripts from package.json in react folder)
