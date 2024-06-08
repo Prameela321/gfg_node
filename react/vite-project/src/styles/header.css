@@ -1,0 +1,24 @@
+.navHeader {
+    display : flex;
+    justify-content: space-around;
+    font-size : 15px;
+    border : 1px solid black;
+    width: 100%;
+    /* margin : 0 40px; */
+}
+
+.redirectLink {
+    display : flex;
+    justify-content : space-between;
+}
+
+.redirectLink   li {
+    list-style-type: none;
+    margin : 35px;
+}
+
+.list-item-span {
+    display : flex;
+    justify-content: space-around;
+    margin-left : 20px;
+}

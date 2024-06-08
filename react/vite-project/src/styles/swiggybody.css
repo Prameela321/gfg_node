@@ -1,0 +1,14 @@
+.search {
+    display : flex;
+    justify-content: start;
+    position :relative;
+    top : 10px;
+ }
+
+.res-container {
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    gap: 25px;
+    margin : 50px;
+    place-items:center;
+}

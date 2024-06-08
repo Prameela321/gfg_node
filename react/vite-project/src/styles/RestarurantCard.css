@@ -1,0 +1,35 @@
+.restaurantDetails {
+    display : flex;
+    flex-direction : column;
+    /* gap : 10px; */
+}
+
+.offer {
+    position : absolute;
+    top : 450px;
+    color:aliceblue;
+    font-size: 20px;
+    margin-left : 55px;
+}
+
+.restaurantCard  img {
+    border-radius: 15px;
+    width:100%;
+    height: 200px;
+}
+
+.img {
+     position : relative;
+     top : 0px;
+}
+
+.restaurantCard {
+   display: relative;
+   top : 0px;
+   margin: 2px;
+}
+.restaurantCard:hover {
+    cursor :pointer;
+    transform : scale(0.9);
+    transition : linear  0.2s;
+}
