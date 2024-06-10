@@ -1,6 +1,6 @@
-import {userState} from 'react';
+import {useState} from 'react';
 
-function userOnlineStatus(){
+function useOnlineStatus(){
     let [userStatus,setUserStatus] = useState(false);
     window.addEventListener('online',()=>{
         setUserStatus(true);
@@ -10,4 +10,4 @@ function userOnlineStatus(){
     } )
     return userStatus;
 }
-export default userStatus;
+export default useOnlineStatus;
