@@ -8,7 +8,7 @@ export function createRestaurant(req,res){
 
     restaurantRow.save().then(data =>{
         if(!data){
-            res.status(400).end({message : "Something Went wrong"});
+            res.status(400,{ "content-type" : "text/plain"}).end({message : "Something Went wrong"});
         }
         res.status(200).json(data);
     }).catch(error =>{

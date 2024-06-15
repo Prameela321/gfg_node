@@ -13,7 +13,15 @@ function SearchReplica(props){
     return (
         <>
             <div className="searchButton">
-                <input type="text" name="" id=""  onChange={(e)=>setSearchText(e.target.value)}/>
+                <input type="text" name="" id=""  onChange={(e)=>{
+                        if(e.target.value === ""){
+                            console.log("test");
+                            props.searchFn(e.target.value);
+                        }
+                        setSearchText(e.target.value)
+                        
+                    }
+                }/>
                 <button className="searchButton" onClick={()=>props.searchFn(searchText)}>SearchReplica</button>
             </div>
         </>

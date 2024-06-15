@@ -1,4 +1,5 @@
 import app from '../server.js';
+import authUser from '../middlewares/routeLevel.js';
 app.get("/",(req , res)=>{
     res.send('Learning node js');
 });
@@ -16,7 +17,7 @@ const users = [
 ];
 
 
-app.get('/users',(req,res)=>{
+app.get('/users',authUser,(req,res)=>{
     res.send(users);
 })
 

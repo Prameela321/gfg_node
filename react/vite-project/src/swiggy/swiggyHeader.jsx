@@ -2,6 +2,7 @@ import '../styles/header.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faLifeRing , faBriefcase , faMagnifyingGlass , faPercent , faUser , faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import useOnlineStatus from '../utils/useOnlineStatus';
+import { Link } from 'react-router-dom';
 
 function SwiggyHeader(){
     let userstatus = new useOnlineStatus();
@@ -31,7 +32,7 @@ function SwiggyHeader(){
                       </li>
                       <li className="list-item-span">
                             <span><FontAwesomeIcon icon={faLifeRing} /></span>
-                            <span> Help</span>
+                            <Link to="/help"><span> Help</span></Link>
                      </li>
                      <li className="list-item-span">
                             <span><FontAwesomeIcon icon={faUser} /></span>
@@ -39,7 +40,7 @@ function SwiggyHeader(){
                      </li>
                      <li className="list-item-span">
                             <span><FontAwesomeIcon icon={faCartShopping} /></span>
-                            <span>Cart</span>
+                           <a href="/cart" ><span>Cart</span></a>
                     </li>
                     </ol>
 

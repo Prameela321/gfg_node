@@ -5,6 +5,10 @@ function TopRatedRestaurant(props){
             <button className="searchButton" onClick={props.ratedFn}>
                 TopRated
             </button>
+            {/* <label className="">
+                <input type="checkbox"> <span className=""></span></input>
+                
+            </label> */}
         </>
     )
 }
